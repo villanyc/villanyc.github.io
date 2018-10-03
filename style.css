@@ -1,14 +1,25 @@
+body {
+    background-image: url(https://us.123rf.com/450wm/dvarg/dvarg1406/dvarg140600658/29069186-patterns-vertical-in-the-form-of-vines-abstact-flowers-on-a-light-beige-background.jpg?ver=6);
+
+}
+
 header {
-	background-image: url(images/header1.png);
+	background-image: url(https://static1.squarespace.com/static/546ffe37e4b035e9c277b5d4/t/5b5c2dceaa4a99bb715331d4/1532767718861/Squarespace+Coding+and+CSS+Services);
 	border-style: solid;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 340px;
 	background-position: center;
 	text-align: left;
+    color: #bf2241;
+    font-size: 50px;
+    text-align: center;
+    margin:0;
+    -webkit-text-stroke:2px black;  
+
 }
 nav {
-	background-color: blue;
+	background-color: #1CBE8C;
 	border: solid 3px Red;
 }
 nav .row .col:hover{
@@ -20,17 +31,23 @@ img {
 }
 
 
-.scrolling-box {
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+#about {
+    background-color: #1CBE8CBF;
 }
 
-  
 
+#projects {
+    background-color: #1CBE8CBF;
+    -webkit-text-stroke:2px black;
+    color: #bf2241;
+}
 
-
-
-
+#contact {
+    background-color: #1CBE8CBF;
+    -webkit-text-stroke:2px black;
+    color: #bf2241;
+    
+}
 
 
 
