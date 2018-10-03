@@ -40,16 +40,19 @@ img {
     background-color: #1CBE8CBF;
     -webkit-text-stroke:2px black;
     color: #bf2241;
+
 }
 
 #contact {
     background-color: #1CBE8CBF;
     -webkit-text-stroke:2px black;
     color: #bf2241;
-    
+
 }
 
-
+.mySlides {
+    height: 440px;
+}
 
 * {
     box-sizing: border-box;
@@ -80,7 +83,7 @@ input[type=submit]:hover {
 /* Style the container/contact section */
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #1CBE8CBF;
     padding: 10px;
 }
 
