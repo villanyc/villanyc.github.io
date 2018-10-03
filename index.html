@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Joe V's Portfolio</title>
+	<script type="text/javascript" src="jquery-1.8.3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width,
+initial-scale=1, shrink-to-fit=no" />
+
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/boots
+trap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+
+		<header class="container-fluid">
+			<div class="row">
+				<div class="col-4" >
+					<h1>Joe V.</h1>
+				</div>
+				<div class="col-4 ml-auto">
+					<h1>Web Developer</h1>
+				</div>
+			</div>
+		
+		</header>
+
+		<nav class="container-fluid">
+			<div class="row text-center"> 
+				
+				<div class="col">
+					<h3> <a href="index.html">Home</a></h3>
+				</div>
+
+				<div class="col">
+					<h3><a href="#about">About</a></h3>
+				</div>
+
+				<div class="col">
+					<h3><a href="#projects">Projects</a></h3>
+				</div>
+
+				<div class="col">
+					<h3><a href="#contact">Contact</a></h3>
+				</div>
+				
+			</div>
+		</nav>
+		
+		
+		<section id="about" class="container">
+			<div class="row">
+				<div class="col-4">
+				<img src="https://d2w9rnfcy7mm78.cloudfront.net/1188624/large_74066a25235d196772397de58e136062.png">
+				</div>
+				<div class="col">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section id="projects" class="container-fluid" style="border-style:dashed;">
+			<div class="row">
+				<div class="col">
+					<h1 align="center">Previous Projects</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<p align="center" >1st Project Below:
+				<img src="http://www.thesambarnes.com/wp-content/uploads/folens-web-project1.jpg">	</p>
+				</div>
+				<div class="col">
+					<p align="center">2nd Project Below:
+					<img src="http://www.thesambarnes.com/wp-content/uploads/folens-web-project1.jpg"></p>
+				</div>
+				<div class="col">
+					<p align="center">3rd Project Below:
+					<img src="http://www.thesambarnes.com/wp-content/uploads/folens-web-project1.jpg"></p>
+				</div>
+			</div>
+		</section>
+
+
+
+			<section id="contact" class="container-fluid" style="border-style:solid;">
+			<div class="row">
+				<div class="col">
+					<h1 align="left">Contact Me</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					
+
+
+
+
+
+
+<div class="container">
+  <div style="text-align:center">
+
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div id="map" style="width:100%;height:500px"></div>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Initialize Google Maps -->
+<script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(51.508742,-0.120850);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 12};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+
+
+
+
+
+				</div>
+				
+			</div>
+		</section>
+
+
+	</body>
+</html>
