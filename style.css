@@ -5,7 +5,7 @@ body {
 
 header {
 	background-image: url(https://static1.squarespace.com/static/546ffe37e4b035e9c277b5d4/t/5b5c2dceaa4a99bb715331d4/1532767718861/Squarespace+Coding+and+CSS+Services);
-	border-style: solid;
+	border-style: dashed;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 340px;
@@ -32,7 +32,12 @@ header h2 {
 }
 nav {
 	background-color: #1CBE8C;
-	border: solid 3px Red;
+	
+}
+
+nav .row {
+    border: solid 3px Red;
+
 }
 nav .row .col:hover{
 	background-color: red;
@@ -45,6 +50,7 @@ img {
 
 #about {
     background-color: #1CBE8CBF;
+    border: dashed 3px Red;
 }
 
 
@@ -61,6 +67,9 @@ img {
     color: #bf2241;
 
 }
+
+
+
 
 .mySlides {
     height: 440px;
